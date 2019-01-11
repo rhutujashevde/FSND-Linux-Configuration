@@ -16,15 +16,15 @@ A baseline installation of Ubuntu Linux on a virtual machine to host a Flask web
 
 * Move the private key file into the ssh folder:
 ```
-$ mv ~/Downloads/udacity_key.rsa ~/.ssh/
+$ mv ~/Downloads/udacity.pem ~/.ssh/
 ```
 * Set file rights (only owner can write and read):
 ```
-$ chmod 600 ~/.ssh/udacity_key.rsa
+$ chmod 600 ~/.ssh/udacity.pem
 ```
 * Login to your remote VM:
 ```
-$ ssh -i ~/.ssh/udacity_key.rsa ubuntu@13.127.211.49
+$ ssh -i ~/.ssh/udacity.pem ubuntu@13.127.211.49
 ```
 ### Create a new user named grader with a secure password and give grader the permission to 'sudo'
 
