@@ -300,10 +300,14 @@ host    all             all             ::1/128                 md5
 * These addresses also need to be entered into the Google Developers Console -> API Manager -> Credentials, in the web client under "Authorized JavaScript origins".
 
 ## List of third-party resources used to complete this project:
+http://flask.pocoo.org/docs/0.12/deploying/#deployment
+https://lightsail.aws.amazon.com/ls/docs/en/articles/getting-started-with-amazon-lightsail
+https://lightsail.aws.amazon.com/ls/docs/en/articles/lightsail-how-to-set-up-ssh
 https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
 https://help.ubuntu.com/community/UbuntuTime#Using_the_Command_Line_.28terminal.29
 https://blog.udacity.com/2015/03/step-by-step-guide-install-lamp-linux-apache-mysql-python-ubuntu.html
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu
+http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 https://stackoverflow.com/questions/12201928/python-open-gives-ioerror-errno-2-no-such-file-or-directory
 
