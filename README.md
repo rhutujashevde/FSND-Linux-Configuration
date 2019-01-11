@@ -261,9 +261,9 @@ $ sudo su - postgres
 5. Revoke all rights:
 # REVOKE ALL ON SCHEMA public FROM public;
 6. Lock down the permissions to only let catalog role create tables:
-# GRANT ALL ON SCHEMA public TO catalog;.
+# GRANT ALL ON SCHEMA public TO catalog;
 7. Log out from PostgreSQL:
-# \q. 
+# \q
 ```
 * Return to the grader user:
 ```$ exit```
