@@ -242,8 +242,8 @@ $ sudo apt-get install libpq-dev python-dev
 ```
 $ sudo apt-get install postgresql postgresql-contrib
 ```
-* Postgres is automatically creating a new user during its installation, whose name is 'postgres'
-* That is a tusted user who can access the database software. So let's change the user with:
+* Postgres is automatically creating a new user during its installation called 'postgres'
+* Change the user with:
 ```
 $ sudo su - postgres
 ```
