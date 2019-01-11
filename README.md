@@ -306,3 +306,8 @@ https://blog.udacity.com/2015/03/step-by-step-guide-install-lamp-linux-apache-my
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 https://stackoverflow.com/questions/12201928/python-open-gives-ioerror-errno-2-no-such-file-or-directory
+
+## NOTE
+* This app uses flask-sqlalchemy insted of sqlalchemy, you can check the unchanged code [here] (https://github.com/rhutujashevde/anime_catalog).
+* This app is also deployed on Heroku, check it out [here](https://anime-catalog.herokuapp.com/).
+* Heroku app uses .sqlite database created in the initial stages of the project so don't be confused.
