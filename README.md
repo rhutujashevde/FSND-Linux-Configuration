@@ -5,13 +5,13 @@
 A baseline installation of Ubuntu Linux on a virtual machine to host a Flask web application. This includes the installation of updates, securing the system from a number of attack vectors and installing/configuring web and database servers.
 
 ## Server Details
-IP address: 13.127.211.49
-SSH port: 2200
-URL: http://ec2-13-127-211-49.ap-south-1.compute.amazonaws.com/
+* IP address: 13.127.211.49
+* SSH port: 2200
+* URL: http://ec2-13-127-211-49.ap-south-1.compute.amazonaws.com/
 
 ## Summary of software installed and configuration changes made
 
-###Create Development Environment: Launch Virtual Machine and SSH into the server
+### Create Development Environment: Launch Virtual Machine and SSH into the server
 * Download Amazon Lightsail private key
 
 * Move the private key file into the ssh folder:
@@ -26,7 +26,7 @@ $ chmod 600 ~/.ssh/udacity_key.rsa
 ```
 $ ssh -i ~/.ssh/udacity_key.rsa ubuntu@13.127.211.49
 ```
-####Create a new user named grader with a secure password and give grader the permission to 'sudo'
+### Create a new user named grader with a secure password and give grader the permission to 'sudo'
 
 * Add new user grader:
 ```
