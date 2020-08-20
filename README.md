@@ -5,7 +5,7 @@
 A baseline installation of Ubuntu Linux on a virtual machine to host a Flask web application. This includes the installation of updates, securing the system from a number of attack vectors and installing/configuring web and database servers.
 
 ## Server Details
-* IP address: 13.127.211.49
+* IP address: 
 * SSH port: 2200
 * URL: http://ec2-13-127-211-49.ap-south-1.compute.amazonaws.com/
 
@@ -136,11 +136,11 @@ $ sudo apt-get install git
 ```
 Configure GitHub username:
 ```
-$ git config --global user.name rhutujashevde
+$ git config --global user.name <username>
 ```
 Configure GitHub email: 
 ```
-$ git config --global user.email rshevde.555@gmail.com
+$ git config --global user.email <email>
 ```
 * Start apache
 ```
